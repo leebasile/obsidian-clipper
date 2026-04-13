@@ -68,37 +68,6 @@ For Firefox:
 
 If you want to run the extension permanently you can do so with the Nightly or Developer versions of Firefox.
 
-1. Type `about:config` in the URL bar
-2. In the Search box type `xpinstall.signatures.required`
-3. Double-click the preference, or right-click and select "Toggle", to set it to `false`.
-4. Go to `about:addons` > gear icon > **Install Add-on From File…**
+> **Personal note:** I use this fork primarily for testing custom templates. The `dist_firefox` build is my main target — see my template examples in the `examples/` folder.
 
-For iOS Simulator testing on macOS:
-
-1. Run `npm run build` to build the extension
-2. Open `xcode/Obsidian Web Clipper/Obsidian Web Clipper.xcodeproj` in Xcode
-3. Select the **Obsidian Web Clipper (iOS)** scheme from the scheme selector
-4. Choose an iOS Simulator device and click **Run** to build and launch the app
-5. Once the app is running on the simulator, open **Safari**
-6. Navigate to a webpage and tap the **Extensions** button in Safari to access the Web Clipper extension
-
-### Run tests
-
-```
-npm test
-```
-
-Or run in watch mode during development:
-
-```
-npm run test:watch
-```
-
-## Third-party libraries
-
-- [webextension-polyfill](https://github.com/mozilla/webextension-polyfill) for browser compatibility
-- [defuddle](https://github.com/kepano/defuddle) for content extraction and Markdown conversion
-- [dayjs](https://github.com/iamkun/dayjs) for date parsing and formatting
-- [lz-string](https://github.com/pieroxy/lz-string) to compress templates to reduce storage space
-- [lucide](https://github.com/lucide-icons/lucide) for icons
-- [dompurify](https://github.com/cure53/DOMPurify) for sanitizing HTML
+1. T
