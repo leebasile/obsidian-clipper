@@ -68,6 +68,4 @@ For Firefox:
 
 If you want to run the extension permanently you can do so with the Nightly or Developer versions of Firefox.
 
-> **Personal note:** I use this fork primarily for testing custom templates. The `dist_firefox` build is my main target — see my template examples in the `examples/` folder.
-
-1. T
+> **Note (personal):** I forked this repo primarily to experiment with custom templates and learn how the variable/filter pipeline works. The `src/_locales` folder is a good starting point for understanding the i18n structure.
