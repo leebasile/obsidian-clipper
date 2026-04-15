@@ -43,7 +43,12 @@
     "collectCoverageFrom": [
       "src/**/*.{ts,tsx}",
       "!src/**/*.d.ts"
-    ]
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 70
+      }
+    }
   },
   "keywords": [
     "obsidian",
