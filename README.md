@@ -67,6 +67,6 @@ For Firefox:
 2. Click **Load Temporary Add-on**
 3. Navigate to the `dist_firefox` directory and select the `manifest.json` file
 
-If you want to run the extension permanently in Firefox, you will need to use Firefox Developer Edition or Firefox Nightly, which allow loading unsigned extensions via `about:config` by setting `xpinstall.signatures.required` to `false`.
+If you want to run the extension permanently in Firefox, you'll need to sign it or use Firefox Developer Edition / Nightly, which allow unsigned extensions via `about:config` by setting `xpinstall.signatures.required` to `false`.
 
-> **Note (personal):** I primarily use this with Firefox Developer Edition — the steps above work reliably with that setup.
+> **Personal note:** I primarily use this with Firefox and Arc. If you run into issues loading the unpacked extension in Arc, try using the `chrome://extensions` page — it works the same as Chrome.
