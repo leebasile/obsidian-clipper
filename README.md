@@ -34,6 +34,7 @@ In no particular order:
 - [ ] A separate icon for Web Clipper
 - [ ] Annotate highlights
 - [ ] Template directory
+- [ ] Keyboard shortcut to clip current page without opening the popup
 - [x] Template validation
 - [x] Template logic (if/for)
 - [x] Save images locally, [added in Obsidian 1.8.0](https://obsidian.md/changelog/2024-12-18-desktop-v1.8.0/)
@@ -68,4 +69,4 @@ For Firefox:
 
 If you want to run the extension permanently you can do so with the Nightly or Developer versions of Firefox.
 
-> **Note (personal):** I forked this repo primarily to experiment with custom templates and learn how the variable/filter pipeline works. The `src/_locales` folder is a good starting point for understanding the i18n structure.
+> **
