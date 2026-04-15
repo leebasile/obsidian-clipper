@@ -8,6 +8,8 @@
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
     "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "clean": "rimraf dist"
   },
   "devDependencies": {
@@ -37,6 +39,10 @@
     "testEnvironment": "jsdom",
     "testMatch": [
       "**/__tests__/**/*.test.ts"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/**/*.d.ts"
     ]
   },
   "keywords": [
