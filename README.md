@@ -67,6 +67,6 @@ For Firefox:
 2. Click **Load Temporary Add-on**
 3. Navigate to the `dist_firefox` directory and select the `manifest.json` file
 
-If you want to run the extension permanently in Firefox, you will need a [self-hosted or signed extension](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/).
+If you want to run the extension permanently in Firefox, you will need to use Firefox Developer Edition or Firefox Nightly, which allow loading unsigned extensions via `about:config` by setting `xpinstall.signatures.required` to `false`.
 
-> **Personal note:** I primarily use this fork to experiment with custom templates for my reading notes vault. If you stumbled upon this fork, the upstream repo at [obsidianmd/obsidian-clipper](https://github.com/obsidianmd/obsidian-clipper) is the one you want.
+> **Note (personal):** I primarily use this with Firefox Developer Edition — the steps above work reliably with that setup.
