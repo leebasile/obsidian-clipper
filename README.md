@@ -67,6 +67,6 @@ For Firefox:
 2. Click **Load Temporary Add-on**
 3. Navigate to the `dist_firefox` directory and select the `manifest.json` file
 
-If you want to run the extension permanently in Firefox, you'll need to sign it or use Firefox Developer Edition / Nightly, which allow unsigned extensions via `about:config` by setting `xpinstall.signatures.required` to `false`.
+If you want to run the extension permanently in Firefox, you need a self-hosted or signed extension. See [Firefox documentation on add-on signing](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/) for details.
 
-> **Personal note:** I primarily use this with Firefox and Arc. If you run into issues loading the unpacked extension in Arc, try using the `chrome://extensions` page — it works the same as Chrome.
+> **Personal note:** I use this fork primarily for testing custom template experiments. If you stumbled here looking for the real thing, head to [obsidianmd/obsidian-clipper](https://github.com/obsidianmd/obsidian-clipper).
